@@ -1,0 +1,74 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+    
+}
+
+.mbox1{
+    flex-grow: 1;
+   border: 1px solid lightgrey;
+   
+   
+}
+
+.mbox2{
+    flex-grow: 1;
+    border: 1px solid lightgrey;
+    margin-left: 20px;
+    
+   
+}
+.mbox3{
+    flex-grow: 1;
+    border: 1px solid lightgrey;
+    margin-left: 20px;
+    
+}
+
+.mbox1:hover{
+cursor: pointer;
+color: blue;
+transform: scale(1.2);
+z-index: 2;
+transition: ease-in-out 0.5s;
+}
+
+.mbox2:hover{
+    cursor: pointer;
+    color: blue;
+    transform: scale(1.2);
+    z-index: 2;
+    transition: ease-in-out 0.5s;
+    }
+
+    .mbox3:hover{
+        cursor: pointer;
+        color: blue;
+        transform: scale(1.2);
+        z-index: 2;
+        transition: ease-in-out 0.5s;
+        }
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
